@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+import sys
 import random
 from CalculatePosition import *
 from Dial import Dial 
@@ -50,7 +50,7 @@ def main():
                 con = False
 
             else:
-                pass
+                sys.exit()
 
     playerPosition = PlayerPosition()
     treasurePosition = TreasurePosition()
